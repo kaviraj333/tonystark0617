@@ -1,2 +1,2 @@
-name=str(input("enter the name:"))
-print(name.count('.'))
+name=str(input())
+print(name.count('.')+1)
