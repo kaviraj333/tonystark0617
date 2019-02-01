@@ -1,7 +1,7 @@
-a=int(input())
 b=int(input())
-a=a^b
-b=a^b
-a=a^b
-print(a)
+a=int(input())
+b=b^a
+a=b^a
+b=b^a
 print(b)
+print(a)
