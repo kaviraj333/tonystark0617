@@ -1,2 +1,3 @@
-name=str(input())
-print(name.count('.')+1)
+a=str(input())
+if (len(a)<=1000):
+    print(a.count('.')+1)
