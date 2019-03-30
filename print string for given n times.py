@@ -1,12 +1,12 @@
-def printv(val,n):
-	for i in range(n):
-		print(val)
+a=input()
+digit=""
+str=""
+for i in range(len(a)):
+    if (a[i].isdigit()):
+        digit=a[i]+digit
+    else:
+        str=str+a[i]
+for i in range(int(digit)):
 
-def main():
-	try :
-		v=input()
-		n=int(input())
-		printv(v,n)
-	except:
-		print('invalid input')
-main()
+    print(str)
+        
