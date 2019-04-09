@@ -1,7 +1,7 @@
 a=int(input())
 if (1<= a <=10):
     if (a==1):
-        print("one")
+        print("One")
     elif (a==2):
         print("Two")
     elif (a==3):
